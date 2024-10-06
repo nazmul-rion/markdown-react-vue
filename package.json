@@ -1,0 +1,38 @@
+{
+  "name": "markdown-react-vue",
+  "version": "1.0.0",
+  "description": "A markdown renderer for React and Vue.",
+  "main": "dist/markdown-renderer.cjs.js",
+  "module": "dist/markdown-renderer.esm.js",
+  "type": "module",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "markdown",
+    "renderer",
+    "react",
+    "vue"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^28.0.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "marked": "^14.1.2"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.25.7",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@vue/compiler-sfc": "^3.5.11",
+    "rollup": "^4.24.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-vue": "^6.0.0"
+  }
+}
